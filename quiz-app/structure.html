@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz app through css , html and javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <h1>Simple quiz</h1>
+        <div class="quiz">
+            <h2 id="question">question goes here</h2>
+        
+        <div id="answer-button">
+           <button class="btn">Answer-1</button>
+           <button class="btn">Answer-2</button>
+           <button class="btn">Answer-3</button>
+           <button class="btn">Answer-4</button>
+
+        </div>
+        
+         <button id="next-btn">NEXT</button>
+    
+        </div>
+
+        <!-- through ai .........................-->
+         <div>
+             <h2 id="timer">Time: 10</h2>
+         </div>
+
+         <div id="progress-container" style="width: 100%; background-color: #eee; border-radius: 10px; overflow: hidden; margin-bottom: 20px;">
+         <div id="progress-bar" style="height: 20px; width: 0%; background-color: #4CAF50; text-align: center; color: white;">
+         0%
+         </div>
+         </div>
+         <!-- ................................ -->
+    
+
+    </div>
+    <script src="funtion.js"></script>
+    
+</body>
+</html>
